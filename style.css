@@ -2,11 +2,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.main {
+main {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .hero {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -14,7 +13,30 @@
 }
 
 .hero-info {
-    align-self: center; /*Central el mismo elemento*/
+    align-self: center; /*Centrar el mismo elemento*/
+}
+
+.infor-title {
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.info-subtitle {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+}
+
+.info-button {
+   border: none;
+   border-radius: 20px;
+   color: #333;
+   background-color: #fb8c00;
+   font-weight: bolder;
+   padding: 15px 32px;
+   font-size: 16px;
 }
 
 .hero-image {
@@ -22,4 +44,6 @@
     height: 100%;
     object-fit: contain; 
 }
+
+
 
